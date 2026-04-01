@@ -1,6 +1,6 @@
 //ID: ATE/0038/14
 
-package com.shopwave.shopwave_starter;
+package com.shopwave;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
