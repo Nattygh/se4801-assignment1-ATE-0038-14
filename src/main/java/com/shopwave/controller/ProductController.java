@@ -24,7 +24,6 @@ public class ProductController {
     private final ProductService productService;
 
     // GET /api/products?page=0&size=10
-
     @GetMapping
     public ResponseEntity<Page<ProductDTO>> getAllProducts(Pageable pageable) {
         return ResponseEntity.ok(productService.getAllProducts(pageable));
